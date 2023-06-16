@@ -1,9 +1,21 @@
-<div class="contenedor"  [ngClass]="{'active': esActivo}">
+<div class="contenedor" [ngClass]="{'active': esActivo}">
   <header class="header">
     <div class="contenedor-logo">
       <mat-icon (click)="cambiarClase()">menu</mat-icon>
+      <div class="render-logo">
+        <img style="width: 60px;" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-0.png" alt="logo de youtube">
+      </div>
+    </div>
+    <div class="barra-busqueda">
+        <input matInput type="search" placeholder="Buscar"><mat-icon>search</mat-icon>
+    </div>
+    <div class="botones-header">
+      <mat-icon>video_call</mat-icon><mat-icon>notifications</mat-icon>
+      <a href="#" class="avatar"><img src="https://lh3.googleusercontent.com/a/AAcHTtcQGPjBMrV4644q0PvNmkjxcuquoyQLqBOlFlEr=s96-c-rg-br100" alt="avatar"></a>
     </div>
   </header>
-  <nav class="menu-lateral"></nav>
+  <nav class="menu-lateral">
+    
+  </nav>
   <main class="main"></main>
 </div>
