@@ -1,4 +1,9 @@
-<h1>Hola mundo
-</h1>
-<label for="nombre"><input type="text" placeholder="escribi tu nombre"></label>
-<mat-slide-toggle>Toggle me!</mat-slide-toggle>
+<div class="contenedor"  [ngClass]="{'active': esActivo}">
+  <header class="header">
+    <div class="contenedor-logo">
+      <mat-icon (click)="cambiarClase()">menu</mat-icon>
+    </div>
+  </header>
+  <nav class="menu-lateral"></nav>
+  <main class="main"></main>
+</div>
