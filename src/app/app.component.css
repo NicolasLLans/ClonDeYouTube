@@ -132,10 +132,45 @@ a{
   border-radius: 50%;
 }
 
-.header .menu-lateral{
+.menu-lateral{
   grid-area: menu;
-  background-color: azure;
+  overflow: hidden;
 }
+
+.menu-lateral a {
+  display: flex;
+  align-items: center;
+  padding: 15px 35px;
+  color:#000;
+  min-width: 800px;
+}
+
+.menu-lateral a:hover {
+  background-color: #e5e5e5;
+}
+
+.menu-lateral a.active {
+  background-color: #e5e5e5;
+  font-weight: bold;
+}
+
+.menu-lateral mat-icon {
+  color: #606060;
+  margin-right: 35px;
+  width: 20px;
+  text-align: center;
+}
+
+.menu-lateral a.active mat-icon {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.menu-lateral hr{
+  margin: 20px 0;
+  border: 1px solid #dfdfdf;
+}
+
 
 main{
   grid-area: contenido;
