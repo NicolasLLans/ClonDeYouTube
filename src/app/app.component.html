@@ -3,9 +3,8 @@
     <div class="contenedor-logo">
       <mat-icon (click)="cambiarClase()">menu</mat-icon>
       <div class="render-logo">
-        <img style="height: 30px;" src="https://i.imgur.com/GJxbFXL.png"
-          alt="logo de youtube">
-          <h3>Youtube</h3>
+        <img style="height: 30px;" src="https://i.imgur.com/GJxbFXL.png" alt="logo de youtube">
+        <h3>Youtube</h3>
       </div>
     </div>
     <div class="barra-busqueda">
@@ -19,24 +18,121 @@
     </div>
   </header>
   <nav class="menu-lateral">
-      <a href="#" class="active"><mat-icon>home_filled</mat-icon>Principal</a>
-      <a href="#"><mat-icon>app_shortcut</mat-icon>Shorts</a>
-      <a href="#"><mat-icon>subscriptions</mat-icon>Suscripciones</a>
-      <hr>
-      <a href="#"><mat-icon>video_library</mat-icon>Biblioteca</a>
-      <a href="#"><mat-icon>history</mat-icon>Historial</a>
-      <a href="#"><mat-icon>smart_display</mat-icon>Tus videos</a>
-      <a href="#"><mat-icon>schedule</mat-icon>Ver más tarde</a>
-      <a href="#"><mat-icon>subscriptions</mat-icon>Videos que me gustan</a>
-      <a href="#"><mat-icon>expand_more</mat-icon>Mostrar más</a>
-      <hr>
+    <a href="#" class="active"><mat-icon>home_filled</mat-icon>Principal</a>
+    <a href="#"><mat-icon>app_shortcut</mat-icon>Shorts</a>
+    <a href="#"><mat-icon>subscriptions</mat-icon>Suscripciones</a>
+    <hr>
+    <a href="#"><mat-icon>video_library</mat-icon>Biblioteca</a>
+    <a href="#"><mat-icon>history</mat-icon>Historial</a>
+    <a href="#"><mat-icon>smart_display</mat-icon>Tus videos</a>
+    <a href="#"><mat-icon>schedule</mat-icon>Ver más tarde</a>
+    <a href="#"><mat-icon>subscriptions</mat-icon>Videos que me gustan</a>
+    <a href="#"><mat-icon>expand_more</mat-icon>Mostrar más</a>
+    <hr>
   </nav>
   <main class="main">
     <h3 class="titulo">Videos Recomendados</h3>
     <div class="grid-videos">
-      <a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a>
-      <a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a>
-      <a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a><a href="#" class="video"><img src="https://via.placeholder.com/500x281?text=placeholder" alt=""></a>
+      <div class="contenedor-img-descripcion">
+        <a href="#" class="video">
+          <img src="https://via.placeholder.com/500x281?text=placeholder" alt="">
+        </a>
+        <div class="contenedor-meta">
+          <a class="columna-logo">
+            <img src="https://yt3.ggpht.com/ytc/AGIKgqMSpqpZVn-TGZerYSVeuzhBqjNLU8f9_XYVMfOP=s48-c-k-c0x00ffffff-no-rj"
+              alt="">
+          </a>
+          <div class="meta">
+            <div class="columna1">
+              <h3 class="titulo">Nombre del video</h3>
+              <div class="detalles">
+                <div class="meta-line">
+                  <h4>usuario</h4><mat-icon style="font-size: 14px;">check_circle</mat-icon>
+                </div>
+                <div class="line-2">
+                  <span>6K vistas</span><hr><time>hace 8 horas</time>
+                </div>
+              </div>
+            </div>
+            <button><mat-icon>more_vert</mat-icon></button>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-img-descripcion">
+        <a href="#" class="video">
+          <img src="https://via.placeholder.com/500x281?text=placeholder" alt="">
+        </a>
+        <div class="contenedor-meta">
+          <a class="columna-logo">
+            <img src="https://yt3.ggpht.com/MPGVFdswIwc8Fq8FtxsOCvlj1nSVpIta5nGP4AzA81mZtK2HiYC8Cz_uMZZTVIocNJLhaZ76dbQ=s68-c-k-c0x00ffffff-no-rj"
+              alt="">
+          </a>
+          <div class="meta">
+            <div class="columna1">
+              <h3 class="titulo">Nombre del video</h3>
+              <div class="detalles">
+                <div class="meta-line">
+                  <h4>usuario</h4><mat-icon style="font-size: 14px;">check_circle</mat-icon>
+                </div>
+                <div class="line-2">
+                  <span>6K vistas</span><hr><time>hace 8 horas</time>
+                </div>
+              </div>
+            </div>
+            <button><mat-icon>more_vert</mat-icon></button>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-img-descripcion">
+        <a href="#" class="video">
+          <img src="https://via.placeholder.com/500x281?text=placeholder" alt="">
+        </a>
+        <div class="contenedor-meta">
+          <a class="columna-logo">
+            <img src="https://yt3.ggpht.com/ytc/AGIKgqNuOVoLg7EEQyI53wupnDWX3FazpielMxMzxAHFgw=s68-c-k-c0x00ffffff-no-rj"
+              alt="">
+          </a>
+          <div class="meta">
+            <div class="columna1">
+              <h3 class="titulo">Nombre del video</h3>
+              <div class="detalles">
+                <div class="meta-line">
+                  <h4>usuario</h4><mat-icon style="font-size: 14px;">check_circle</mat-icon>
+                </div>
+                <div class="line-2">
+                  <span>6K vistas</span><hr><time>hace 8 horas</time>
+                </div>
+              </div>
+            </div>
+            <button><mat-icon>more_vert</mat-icon></button>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-img-descripcion">
+        <a href="#" class="video">
+          <img src="https://via.placeholder.com/500x281?text=placeholder" alt="">
+        </a>
+        <div class="contenedor-meta">
+          <a class="columna-logo">
+            <img src="https://yt3.ggpht.com/hil-0H_31xxStACk8BDU-T6KTkR7FIwraagQeskFJHmSkeh--NisESF0IQjgnEBslOxOxLF9THM=s68-c-k-c0x00ffffff-no-rj"
+              alt="">
+          </a>
+          <div class="meta">
+            <div class="columna1">
+              <h3 class="titulo">Nombre del video</h3>
+              <div class="detalles">
+                <div class="meta-line">
+                  <h4>usuario</h4><mat-icon style="font-size: 14px;">check_circle</mat-icon>
+                </div>
+                <div class="line-2">
+                  <span>6K vistas</span><hr><time>hace 8 horas</time>
+                </div>
+              </div>
+            </div>
+            <button><mat-icon>more_vert</mat-icon></button>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </div>
