@@ -85,7 +85,7 @@
 
 .grid-videos .contenedor-img-descripcion .contenedor-meta .meta button {
       display: flex;
-      align-items: start;
+      align-items: flex-start;
       margin-top: 12px;
       vertical-align: middle;
       color: inherit;
@@ -98,7 +98,7 @@
 
 .grid-videos .contenedor-img-descripcion .contenedor-meta .meta button:hover {
       display: flex;
-      align-items: start;
+      align-items: flex-start;
       margin-top: 12px;
       vertical-align: middle;
       color: inherit;
