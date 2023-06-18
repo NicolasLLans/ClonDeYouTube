@@ -15,21 +15,21 @@ a {
   min-height: 100vh;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 90px auto;
-  grid-template-rows: 60px auto;
+  grid-template-columns: 74px auto;
+  grid-template-rows: 56px auto;
   grid-template-areas: "header header"
     "menu contenido";
   transition: all .3s ease;
 }
 
 .contenedor.active {
-  grid-template-columns: 300px auto;
+  grid-template-columns: 240px auto;
 }
 
 
 .header {
   grid-area: header;
-  padding: 0 20px;
+  padding: 0 16px;
   display: grid;
   grid-template-columns: auto 1f auto;
   align-items: center;
@@ -63,15 +63,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  margin-left: 32px;
+  margin-left: 12px;
 }
 
 .header .render-logo {
-  width: 90px;
-  height: 60px;
+  width: 100%;
+  height: 20px;
   display: flex;
-  justify-content: center;
+  gap: 4px;
+  padding: 18px 14px 18px 16px;
 }
 
 .header .barra-busqueda {
@@ -155,7 +155,7 @@ a {
 .menu-lateral a {
   display: flex;
   align-items: center;
-  padding: 15px 35px;
+  padding: 15px 24px;
   color: #000;
   min-width: 800px;
 }
@@ -190,7 +190,7 @@ a {
 main {
   grid-area: contenido;
   background-color: #f9f9f9;
-  padding: 40px;
+  padding: 20px;
 }
 
 .main .titulo {

@@ -2,7 +2,7 @@
       display: grid;
       grid-gap: 30px 20px;
       grid-template-columns: repeat(auto-fit,
-                  minmax(350px, 1fr));
+                  minmax(325px, 1fr));
 }
 
 .grid-videos .video {
@@ -71,6 +71,7 @@
 .grid-videos .contenedor-img-descripcion .contenedor-meta .meta .detalles .meta-line mat-icon {
       display: flex;
       align-items: center;
+      height: 20px;
       justify-content: center;
 }
 
