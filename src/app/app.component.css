@@ -10,6 +10,11 @@ a {
   color: black;
 }
 
+mat-icon{
+  height: 40px;
+  width: 40px;
+}
+
 .contenedor {
   width: 100%;
   min-height: 100vh;
@@ -29,18 +34,19 @@ a {
 
 .header {
   grid-area: header;
+  height: 56px;
   padding: 0 16px;
-  display: grid;
-  grid-template-columns: auto 1f auto;
+  display: flexbox;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  grid-template-areas: "logo busqueda iconos";
 }
 
 .header .contenedor-logo {
-  grid-area: logo;
+  display: flexbox;
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -75,25 +81,47 @@ a {
 }
 
 .header .barra-busqueda {
-  grid-area: busqueda;
-  min-width: 80%;
+  display: flexbox;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex: 0 1 728px;
+  min-width: 0px;
 }
 
 .header .barra-busqueda input {
-  width: 100%;
+  max-width: 540px;
   padding: 0 15px;
-  height: 35px;
+  height: 40px;
   border: 1px solid #ccc;
   border-radius: 25px 0 0 25px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 40px;
+  padding: 0 4px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border: 1px solid hsla(0, 0%, 19%, 0.233);
+  border-right: none;
+  border-radius: 40px 0 0 40px;
+  padding: 0px 4px 0px 16px;
+  margin-left: 32px;
+  flex: 1;
+  flex-basis: 1e-9px;
+  display: flexbox;
+  display: flex;
+  flex-direction: row;
 }
 
-.header .barra-busqueda mat-icon {
-  height: 35px;
+.header .barra-busqueda input:focus{
+  border-color: #0073d1 !important;
+  border-width: 1px !important;
+} 
+
+.header .barra-busqueda .lupa {
+  height: 40px;
   border: 1px solid #ccc;
   border-left: none;
   border-radius: 0 25px 25px 0;
@@ -105,22 +133,41 @@ a {
   align-items: center;
 }
 
-.header .barra-busqueda mat-icon:hover {
+.header .barra-busqueda .lupa:hover {
+  background-color: #f5f5f5;
+}
+.header .barra-busqueda .mic{
+  background-color: #f8f8f8;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  padding: 7px 12px;
+  border-radius: 50%;
+  color: #828282;
+  margin-left: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.header .barra-busqueda .mic:hover{
   background-color: #f5f5f5;
 }
 
 .header .botones-header {
-  grid-area: iconos;
-  display: flex;
+  min-width: 225px;
   align-items: center;
+  justify-content: flex-end;
+  display: flexbox;
+  display: flex;
+  flex-direction: row;
 }
 
 .header .botones-header mat-icon {
   background-color: none;
   border: none;
-  width: 40px;
-  height: 40px;
-  font-size: 18px;
+  font-size: 24px;
   padding: 7px 12px;
   border-radius: 50%;
   color: #828282;
@@ -136,8 +183,8 @@ a {
 }
 
 .header .botones-header .avatar {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   display: inline-block;
 }
 
@@ -189,7 +236,7 @@ a {
   border: 1px solid #dfdfdf;
 }
 
-.menu-lateral a p{
+.menu-lateral a p {
   margin: 0;
   font-size: 14px;
   white-space: nowrap;
