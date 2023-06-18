@@ -11,7 +11,7 @@ export class MinivideoComponent implements OnInit {
     { 
       vistaPrevia: 'https://i.ytimg.com/vi/T_j60n1zgu0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFfyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYfR8pCzSqLuhn1ydiQfaMtpJoKA', 
       avatar: "https://yt3.ggpht.com/ytc/AGIKgqMSpqpZVn-TGZerYSVeuzhBqjNLU8f9_XYVMfOP=s48-c-k-c0x00ffffff-no-rj", 
-      nombre: 'react js vs angular ',
+      nombre: 'Reaccionando a  las Tecnologías y Lenguajes de Programación Mejor Pagadas en 2023',
       usuario:"midudev",
       vistas: "6K",
       tiempo: "8 horas" 
