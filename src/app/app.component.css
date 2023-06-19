@@ -36,12 +36,14 @@ mat-icon {
 .contenedor-header {
   grid-area: header;
   height: 56px;
-  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  /* padding: 0 16px;
   display: flexbox;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 /* Menu lateral */
@@ -51,8 +53,6 @@ mat-icon {
   grid-area: menu;
   overflow: hidden;
   padding: 12px;
-  overflow-y: auto;
-  visibility: visible;
 }
 
 .menu-lateral a {
