@@ -51,6 +51,13 @@
   flex: 0 1 728px;
   min-width: 0px;
 }
+.header .barra-busqueda .contenedor-buscar{
+    display: flex;
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+    flex: 1;
+    flex-basis: 1e-9px;
+}
 
 .header .barra-busqueda input {
   max-width: 540px;
@@ -74,11 +81,11 @@
 
 .header .barra-busqueda .lupa {
   height: 38px;
+  min-width: 64px;
   border: 1px solid #ccc;
   border-left: none;
   border-radius: 0 25px 25px 0;
   background-color: #f8f8f8;
-  padding: 0 20px;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -97,7 +104,7 @@
   font-size: 18px;
   border-radius: 50%;
   color: #828282;
-  margin-left: 8px;
+  margin-left: 4px;
   cursor: pointer;
   display: flex;
   align-items: center;
