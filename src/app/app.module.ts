@@ -8,11 +8,13 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import { MinivideoComponent } from './componentes/minivideo/minivideo.component';
+import { HeaderComponent } from './componentes/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MinivideoComponent
+    MinivideoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
