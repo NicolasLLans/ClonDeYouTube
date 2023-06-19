@@ -107,9 +107,11 @@ mat-icon {
 main {
   grid-area: contenido;
   background-color: #f9f9f9;
-  padding: 20px;
 }
 
 .main .titulo {
-  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 56px;
+  display: flex;
+  align-items: center;
 }
