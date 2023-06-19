@@ -3,6 +3,9 @@
       grid-gap: 30px 20px;
       grid-template-columns: repeat(auto-fit,
                   minmax(325px, 1fr));
+      height: 500px;
+      overflow-x: hidden;
+      overflow-y: auto;
 }
 
 .grid-videos .video {

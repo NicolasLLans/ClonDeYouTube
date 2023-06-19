@@ -55,6 +55,22 @@ export class MinivideoComponent implements OnInit {
       usuario:"midudev",
       vistas: "6K",
       tiempo: "8 horas" 
+    },
+    { 
+      vistaPrevia: 'https://via.placeholder.com/500x281?text=placeholder', 
+      avatar: "https://yt3.ggpht.com/ytc/AGIKgqMSpqpZVn-TGZerYSVeuzhBqjNLU8f9_XYVMfOP=s48-c-k-c0x00ffffff-no-rj", 
+      nombre: 'Nombre del video',
+      usuario:"midudev",
+      vistas: "6K",
+      tiempo: "8 horas" 
+    },
+    { 
+      vistaPrevia: 'https://via.placeholder.com/500x281?text=placeholder', 
+      avatar: "https://yt3.ggpht.com/ytc/AGIKgqMSpqpZVn-TGZerYSVeuzhBqjNLU8f9_XYVMfOP=s48-c-k-c0x00ffffff-no-rj", 
+      nombre: 'Nombre del video',
+      usuario:"midudev",
+      vistas: "6K",
+      tiempo: "8 horas" 
     }
   ];
 
