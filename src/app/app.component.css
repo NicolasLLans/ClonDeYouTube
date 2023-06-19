@@ -196,9 +196,13 @@ mat-icon{
 }
 
 .menu-lateral {
+  height: 100%;
   grid-area: menu;
   overflow: hidden;
   padding: 12px;
+  overflow-y: auto;
+  height: 8000px;
+  visibility: visible;
 }
 
 .menu-lateral a {
@@ -222,7 +226,7 @@ mat-icon{
 
 .menu-lateral mat-icon {
   color: #606060;
-  margin-right: 35px;
+  margin-right: 24px;
   width: 30px;
   text-align: center;
   display: flex;
