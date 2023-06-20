@@ -58,6 +58,16 @@ mat-icon {
     width: 227px;
 }
 
+.menu-lateral::after{
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 240px;
+    visibility: visible;
+    width: 20px;
+    content: "";
+}
+
 .menu-lateral a {
   display: flex;
   align-items: center;
