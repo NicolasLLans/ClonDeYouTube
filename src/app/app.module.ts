@@ -22,7 +22,7 @@ import { HeaderComponent } from './componentes/header/header.component';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
