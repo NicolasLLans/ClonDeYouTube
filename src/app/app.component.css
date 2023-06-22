@@ -21,22 +21,12 @@ mat-icon {
   margin: 0 auto;
   display: flex;
   flex: 1;
-  /* grid-template-columns: 72px auto; */
-  /* grid-template-rows: 56px auto; */
-  /* grid-template-areas:
-      "header header"
-      "menu contenido"; */
   transition: all .3s ease;
-}
-
-.contenedor.active {
-  grid-template-columns: 240px auto;
 }
 
 /* header youtube */
 
 .contenedor-header {
-  grid-area: header;
   height: 56px;
   display: flex;
   align-items: center;
@@ -55,10 +45,14 @@ mat-icon {
   padding: 12px;
   position: fixed;
     top: 56px;
-    width: 227px;
+    width: 73px;
 }
 
-.menu-lateral::after{
+.menu-lateral.active {
+  width: 227px;
+}
+
+/* .menu-lateral::after{
   position: fixed;
     top: 0;
     bottom: 0;
@@ -66,7 +60,7 @@ mat-icon {
     visibility: visible;
     width: 20px;
     content: "";
-}
+} */
 
 .menu-lateral a {
   display: flex;
@@ -117,14 +111,18 @@ mat-icon {
 
 /* main section */
 
-main {
-  grid-area: contenido;
+.main {
   background-color: #f9f9f9;
   height: 100vh;
   width: 100%;
-  margin-left: 240px;
+  margin-left: 73px;
   margin-top: 113px;
 }
+
+.main.active{
+  margin-left: 240px;;
+}
+
 
 .main .titulo {
   padding-left: 20px;

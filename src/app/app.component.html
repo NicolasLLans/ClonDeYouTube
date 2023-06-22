@@ -1,6 +1,6 @@
-<div class="contenedor" [ngClass]="{'active': esActivo}">
+<div class="contenedor">
   <app-header class="contenedor-header"></app-header>
-  <nav class="menu-lateral">
+  <nav class="menu-lateral" [ngClass]="{'active': esActivo}">
     <a href="#" class="active"><mat-icon>home_filled</mat-icon><p>Principal</p></a>
     <a href="#"><mat-icon>app_shortcut</mat-icon><p>Shorts</p></a>
     <a href="#"><mat-icon>subscriptions</mat-icon><p>Suscripciones</p></a>
@@ -13,7 +13,7 @@
     <a href="#"><mat-icon>expand_more</mat-icon><p>Mostrar más</p></a>
     <hr>
   </nav>
-  <main class="main">
+  <main class="main" [ngClass]="{'active': mainActivo}">
     <h3 class="titulo">Videos Recomendados</h3>
     <app-minivideo></app-minivideo>
   </main>

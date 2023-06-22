@@ -10,9 +10,10 @@ export class AppComponent {
   title = 'ClonYouTube';
 
   esActivo: boolean = true;
-
+  mainActivo:boolean = true;
   cambiarClase() {
     this.esActivo = !this.esActivo;
+    this.mainActivo = !this.mainActivo;
   }
 
 }
