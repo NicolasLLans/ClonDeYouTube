@@ -51,12 +51,13 @@
   flex: 0 1 728px;
   min-width: 0px;
 }
-.header .barra-busqueda .contenedor-buscar{
-    display: flex;
-    margin: 0 0 0 40px;
-    padding: 0 4px;
-    flex: 1;
-    flex-basis: 1e-9px;
+
+.header .barra-busqueda .contenedor-buscar {
+  display: flex;
+  margin: 0 0 0 40px;
+  padding: 0 4px;
+  flex: 1;
+  flex-basis: 1e-9px;
 }
 
 .header .barra-busqueda input {
@@ -92,6 +93,47 @@
   align-items: center;
 }
 
+@media (max-width:675px) {
+  .header .barra-busqueda input {
+    display: none;
+  }
+  .header .barra-busqueda{
+    justify-content: end;
+  }
+  .header .barra-busqueda .lupa {
+    border: none;
+    font-size: 24px;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    color: #828282;
+    margin-right: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .barra-busqueda .contenedor-buscar {
+    display: flex;
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+    flex: 1;
+    flex-basis: 1e-9px;
+    justify-content: flex-end;
+  }
+
+  .header .botones-header {
+    min-width: 30%;
+    min-height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+}
+}
+
 .header .barra-busqueda .lupa:hover {
   background-color: #f5f5f5;
 }
@@ -99,13 +141,14 @@
 .header .barra-busqueda .mic {
   background-color: #f8f8f8;
   border: none;
-  width: 40px;
-  height: 40px;
+  /* width: 40px; */
+  /* height: 40px; */
   font-size: 18px;
   border-radius: 50%;
   color: #828282;
   margin-left: 4px;
   cursor: pointer;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +159,7 @@
 }
 
 .header .botones-header {
-  min-width: 225px;
+  min-width: 36%;
   min-height: 40px;
   align-items: center;
   justify-content: flex-end;
