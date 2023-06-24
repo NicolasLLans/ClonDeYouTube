@@ -31,9 +31,10 @@ mat-icon {
   display: flex;
   align-items: center;
   position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
+  top: 0;
+  padding: 0 16px;
+  width: 100%;
+  background: white;
 }
 
 /* Menu lateral */
