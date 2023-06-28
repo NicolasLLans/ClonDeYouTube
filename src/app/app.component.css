@@ -137,3 +137,16 @@ mat-icon {
     width: 100%;
     background: white;
 }
+
+@media (max-width:650px) {
+  .menu-lateral{
+    display: none;
+  }
+  
+  .menu-lateral.active {
+    display:none;
+  }
+  .main{
+    padding: 0 25px;
+  }
+}
