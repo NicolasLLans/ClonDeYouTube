@@ -13,6 +13,7 @@ a {
 mat-icon {
   height: 40px;
   width: 40px;
+  text-align: center;
 }
 
 .contenedor {
@@ -33,6 +34,7 @@ mat-icon {
   position: fixed;
   top: 0;
   padding: 0 16px;
+  z-index: 1200;
   width: 100%;
   background: white;
 }
@@ -138,6 +140,12 @@ mat-icon {
     background: white;
 }
 
+.menu-movil{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width:650px) {
   .menu-lateral{
     display: none;
@@ -150,5 +158,28 @@ mat-icon {
     padding: 0 25px;
     position: relative;
     top: 115px;
+  }
+
+  .main .titulo{
+    left: 0;
+  }
+
+  .menu-movil{
+    display: flex;
+    position: fixed;
+    top: 535px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    background: white;
+    padding: 0 35px;
+  }
+
+  a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
