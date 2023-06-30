@@ -141,12 +141,13 @@ mat-icon {
 }
 
 .menu-movil{
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
 }
 
 @media (max-width:650px) {
+
   .menu-lateral{
     display: none;
   }
@@ -173,7 +174,8 @@ mat-icon {
     height: 100px;
     display: flex;
     background: white;
-    padding: 0 35px;
+    padding: 0 5%;
+    border-top: 1px solid #e2e0e0;
   }
   .main {
     background-color: #f9f9f9;

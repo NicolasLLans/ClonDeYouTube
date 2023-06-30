@@ -93,6 +93,11 @@
 }
 
 @media (max-width:675px) {
+
+    .header .contenedor-logo mat-icon {
+      display: none;
+    }
+
   .header .barra-busqueda input {
     display: none;
   }

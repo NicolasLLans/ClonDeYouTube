@@ -15,6 +15,7 @@
 @media (max-width: 600px){
       .grid-videos .contenedor-filas {           
             max-width: 376px;
+            margin-bottom: 80px;
       }
 
       .grid-videos {
