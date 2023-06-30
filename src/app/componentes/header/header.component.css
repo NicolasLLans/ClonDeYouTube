@@ -94,6 +94,10 @@
 
 @media (max-width:675px) {
 
+  .header .render-logo {
+    padding: 0;
+}
+
     .header .contenedor-logo mat-icon {
       display: none;
     }

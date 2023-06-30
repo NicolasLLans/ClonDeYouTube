@@ -148,6 +148,10 @@ mat-icon {
 
 @media (max-width:650px) {
 
+  .contenedor-header{
+    padding: 0 5%;
+  }
+
   .menu-lateral{
     display: none;
   }
