@@ -171,9 +171,7 @@ mat-icon {
   .menu-movil{
     display: flex;
     position: fixed;
-    top: 587px;
-    left: 0;
-    right: 0;
+    bottom: 0;
     height: 76px;
     display: flex;
     background: white;
