@@ -160,7 +160,6 @@ mat-icon {
     display:none;
   }
   .main{
-    padding: 0 25px;
     position: relative;
     top: 115px;
   }
@@ -172,13 +171,14 @@ mat-icon {
   .menu-movil{
     display: flex;
     position: fixed;
-    top: 535px;
+    top: 587px;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 76px;
     display: flex;
     background: white;
-    padding: 0 5%;
+    width: 100%;
+    padding: 0 2%;
     border-top: 1px solid #e2e0e0;
   }
   .main {
@@ -186,7 +186,7 @@ mat-icon {
     height: 100vh;
     width: 100%;
     margin-left: 0;
-    padding-top: 24px;
+    padding-top: 0;
     margin-top: 0;
   }
   
