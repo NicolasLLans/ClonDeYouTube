@@ -138,7 +138,10 @@ mat-icon {
   width: 100%;
   background: white;
 }
-
+.main .titulo:host{
+  display: block;
+  width: 100%; /* Ocupa el ancho completo del contenedor padre */
+}
 .menu-movil{
   display: none;
   justify-content: space-between;
