@@ -135,12 +135,12 @@ mat-icon {
   align-items: center;
   position: fixed;
   top: 56px;
-  width: 100%;
+  width: calc(100% - 76px);
   background: white;
 }
-.main .titulo:host{
+.main .titulo.active{
   display: block;
-  width: 100%; /* Ocupa el ancho completo del contenedor padre */
+  width: calc(100% - 240px)
 }
 .menu-movil{
   display: none;
@@ -167,7 +167,7 @@ mat-icon {
   }
 
   .main .titulo{
-    left: 0;
+    width: 100% !important;
   }
 
   .menu-movil{
