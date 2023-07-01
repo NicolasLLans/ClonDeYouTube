@@ -9,12 +9,14 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import { MinivideoComponent } from './componentes/minivideo/minivideo.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { HeaderCategoriasComponent } from './componentes/header-categorias/header-categorias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MinivideoComponent,
-    HeaderComponent
+    HeaderComponent,
+    HeaderCategoriasComponent
   ],
   imports: [
     BrowserModule,
