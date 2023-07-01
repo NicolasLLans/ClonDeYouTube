@@ -9,7 +9,7 @@
       width: 100%;
       height: 56px;
       overflow-x: hidden;
-      overflow-y: hidden;
+      touch-action: cross-slide-x;
       white-space: nowrap;
       position: relative;
 }
@@ -17,11 +17,15 @@
 .boton-categoria {
       display: inline-block;
       padding: 7px 12px;
-      background-color: #ccc;
+      background-color: #efefefb8;
       border-radius: 5px;
       margin-right: 12px;
       font-size: 14px;
 }
+
+.boton-categoria:hover {
+      background-color: #c5c5c5;
+  }
 
 .boton-izquierda,
 .boton-derecha {
@@ -69,5 +73,16 @@
 @media (max-width:650px) {
       .boton-derecha,.boton-izquierda{
             opacity: 0;
+      }
+
+      .barra {
+            overflow-x: scroll;
+            touch-action: pan-x;
+            scrollbar-width: none; /* Ocultar la barra de desplazamiento en Firefox */
+            -ms-overflow-style: none; /* Ocultar la barra de desplazamiento en Internet Explorer y Edge */
+      }
+        
+      .barra::-webkit-scrollbar {
+            display: none; /* Ocultar la barra de desplazamiento en Chrome y Safari */
       }
 }
