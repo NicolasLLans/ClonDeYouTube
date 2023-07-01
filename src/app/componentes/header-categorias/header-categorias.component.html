@@ -13,6 +13,6 @@
     <div class="boton-categoria">Categoría 11</div>
     <div class="boton-categoria">Categoría 12</div>
   </div>
-  <div class="boton-izquierda" (click)="scrollIzquierda()"><mat-icon>chevron_left</mat-icon></div>
+  <div class="boton-izquierda" (click)="scrollIzquierda()" *ngIf="mostrarBotonIzquierdo"><mat-icon>chevron_left</mat-icon></div>
   <div class="boton-derecha" (click)="scrollDerecha()"><mat-icon>chevron_right</mat-icon></div>
 </div>
