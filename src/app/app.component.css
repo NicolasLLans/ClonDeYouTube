@@ -137,6 +137,7 @@ mat-icon {
   top: 56px;
   width: calc(100% - 76px);
   background: white;
+  padding-left: 12px;
 }
 .main .titulo.active{
   display: block;
