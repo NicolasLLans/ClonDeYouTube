@@ -5,6 +5,7 @@
       border-radius: 5px;
       margin-right: 12px;
       font-size: 14px;
+      cursor: pointer;
 }
 
 .boton-categoria:hover {
