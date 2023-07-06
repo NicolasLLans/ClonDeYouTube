@@ -29,7 +29,7 @@ export class BotonCategoriaComponent implements OnInit {
       vistaPrevia: 'https://via.placeholder.com/500x281?text=placeholder', 
       avatar: "https://yt3.ggpht.com/ytc/AGIKgqMSpqpZVn-TGZerYSVeuzhBqjNLU8f9_XYVMfOP=s48-c-k-c0x00ffffff-no-rj", 
       nombre: 'Nombre del video',
-      usuario:"midudev",
+      usuario:"Mama hermosa♥",
       vistas: "6K",
       tiempo: "8 horas",
       categoria: "programación"  

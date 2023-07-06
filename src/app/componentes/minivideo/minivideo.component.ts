@@ -27,10 +27,10 @@ export class MinivideoComponent implements OnInit {
       categoria: "viajes"  
     },
     { 
-      vistaPrevia: 'https://via.placeholder.com/500x281?text=placeholder', 
+      vistaPrevia: 'https://i.ytimg.com/vi/-Lw0xCJypio/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-Dk24NxgXvMt641BpGH_orljJjQ', 
       avatar: "https://yt3.ggpht.com/ytc/AGIKgqMSpqpZVn-TGZerYSVeuzhBqjNLU8f9_XYVMfOP=s48-c-k-c0x00ffffff-no-rj", 
       nombre: 'Nombre del video',
-      usuario:"midudev",
+      usuario:"Mama hermosa♥",
       vistas: "6K",
       tiempo: "8 horas",
       categoria: "programación"  
