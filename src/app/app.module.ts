@@ -10,13 +10,15 @@ import {MatInputModule} from '@angular/material/input';
 import { MinivideoComponent } from './componentes/minivideo/minivideo.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { HeaderCategoriasComponent } from './componentes/header-categorias/header-categorias.component';
+import { BotonCategoriaComponent } from './componentes/boton-categoria/boton-categoria.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MinivideoComponent,
     HeaderComponent,
-    HeaderCategoriasComponent
+    HeaderCategoriasComponent,
+    BotonCategoriaComponent
   ],
   imports: [
     BrowserModule,
