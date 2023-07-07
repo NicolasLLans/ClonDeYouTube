@@ -18,7 +18,7 @@ export class MinivideoComponent implements OnInit {
     this.gservice.obtenerDatos().subscribe(
       (response:any) => {
       this.datos = response;
-      console.log(this.datos);
+      // console.log(this.datos);
     });
   }
 
