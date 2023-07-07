@@ -11,6 +11,8 @@ import { MinivideoComponent } from './componentes/minivideo/minivideo.component'
 import { HeaderComponent } from './componentes/header/header.component';
 import { HeaderCategoriasComponent } from './componentes/header-categorias/header-categorias.component';
 import { BotonCategoriaComponent } from './componentes/boton-categoria/boton-categoria.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { BotonCategoriaComponent } from './componentes/boton-categoria/boton-cat
     MatSlideToggleModule,
     MatIconModule,
     MatInputModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
